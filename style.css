@@ -1,0 +1,63 @@
+body {
+    font-family: serif;
+}
+
+td { border: 1px solid black; }
+
+header, footer {
+    background-color: indigo;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.napis {
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: right;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    width:25%;
+    background-color: rgb(213, 193, 255);
+    height: 500px;
+}
+
+.right {
+    width:35%;
+    background-color: rgb(213, 193, 255);
+    height: 500px;
+}
+
+.center {
+    background-color: ghostwhite;
+    text-align: center;
+    height: 500px;
+    width: 40%;
+}
+
+img {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    font-size: 150%;
+    font-style: italic;
+}
+
+table, form {
+    margin: 30px;
+}
+
+table, td, th {
+  border: 1px solid indigo;
+  border-collapse: collapse;
+  padding: 3px;
+}
